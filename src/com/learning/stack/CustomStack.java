@@ -53,6 +53,14 @@ public class CustomStack<Type extends Object> {
 		System.out.println("Removed element: "+element);
 		return element;
 	}
+	
+	public Type peek() {
+		/*Type element = this.stackArray[top];
+		elementCount--;
+		System.out.println("Removed element: "+element);
+		return element;*/
+		return this.stackArray[top];
+	}
 
 	private boolean isStackEmpty() {
 		return (top == -1);

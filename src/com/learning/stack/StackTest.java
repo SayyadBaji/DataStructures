@@ -21,6 +21,8 @@ public class StackTest {
 		intStack.pop();
 		System.out.println("No.of elements after pop: "+intStack.size());
 		
+		System.out.println("Top Element: "+intStack.peek());
+		
 	}
 
 }
