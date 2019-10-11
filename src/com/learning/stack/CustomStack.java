@@ -55,10 +55,6 @@ public class CustomStack<Type extends Object> {
 	}
 	
 	public Type peek() {
-		/*Type element = this.stackArray[top];
-		elementCount--;
-		System.out.println("Removed element: "+element);
-		return element;*/
 		return this.stackArray[top];
 	}
 
